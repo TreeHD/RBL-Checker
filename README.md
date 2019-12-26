@@ -16,6 +16,7 @@ Adjust the $ip array to the IP's or IP range (in CIDR notation!) you'd like to c
 1. sudo chmod +x bl.php
 
 And then, run the file:
+
 2. ./bl.php 
 
 What you do from here is up to you. I have it scheduled to run with a cron and capture the results and email them to me. 
