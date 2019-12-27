@@ -2,7 +2,7 @@
 
 This PHP script is an internal project to monitor a few of the popular RBL's (aka DNSBL's or DNS black lists) for our IP blocks. We have a /22 and a /21 that we process mail out of for our customers. Sometimes, this mail manages to land one of our IP's on a blacklist. I couldn't really justify paying for this service considering I have some conflicted feelings towards email spam blacklists, but that is outside the scope of this project. 
 
-This script is quick and dirty and is not very elegant, but it does get the job done. The "$ip" array can handle a standard IPv4 address as well as a block in CIDR notation. If you don't know what either of these things are, you may want to reada few Wikipedia articles before attemtping to put this into use. 
+This script is quick and dirty and is not very elegant, but it does get the job done. The "$ip" array can handle a standard IPv4 address as well as a block in CIDR notation. If you don't know what either of these things are, you may want to read a few Wikipedia articles before attemtping to put this into use. 
 
 The "$rbl" array is pre-filled with a handful of blacklists. (65 to be exact - way too many for the average mail sender) I suggest trimming this down to a few more targeted lists, such as the lists you find your IP's listed on most often. 
 
