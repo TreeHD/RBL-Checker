@@ -8,7 +8,6 @@ $rbls = [
     'spam.rbl.msrbl.net',
     'zen.spamhaus.org',
     'bl.deadbeef.com',
-    'bl.emailbasura.org',
     'bl.spamcop.net',
     'blackholes.five-ten-sg.com',
     'blacklist.woody.ch',
