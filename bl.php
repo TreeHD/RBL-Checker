@@ -101,8 +101,9 @@ foreach($ipRange as $ipAddress) {
         $lookup = sprintf('%s.%s', $rev, $rbl);
         $listed = gethostbyname($lookup) !== $lookup;
         printf(' --- %s [%s] %s %s %s',$ipAddress, $listed ? 'LISTED' : 'OK', ' via ', $lookup, PHP_EOL);
-    } if ($listed) {
-        $arrStatus[$rbl][] = $ipAddress;
+        if ($listed) {
+            $arrStatus[$rbl][] = $ipAddress;
+        }
     }
 }
 $ip_count = count($ipRange);
