@@ -6,7 +6,6 @@ $time_start = microtime(true);
 $rbls = [
     'b.barracudacentral.org',
     'spam.rbl.msrbl.net',
-    'zen.spamhaus.org',
     'bl.deadbeef.com',
     'bl.spamcop.net',
     'blackholes.five-ten-sg.com',
@@ -39,7 +38,6 @@ $rbls = [
     'osrs.dnsbl.net.au',
     'owfs.dnsbl.net.au',
     'owps.dnsbl.net.au',
-    'pbl.spamhaus.org',
     'phishing.rbl.msrbl.net',
     'probes.dnsbl.net.au',
     'proxy.bl.gweep.ca',
@@ -52,7 +50,6 @@ $rbls = [
     'residential.block.trans,ip.nl',
     'ricn.dnsbl.net.au',
     'rmst.dnsbl.net.au',
-    'sbl.spamhaus.org',
     'short.rbl.jp',
     'spam.abuse.ch',
     'spam.spamrats.com',
@@ -66,7 +63,6 @@ $rbls = [
     'virus.rbl.msrbl.net',
     'web.dnsbl.sorbs.net',
     'wormrbl.imp.ch',
-    'xbl.spamhaus.org',
     'zombie.dnsbl.sorbs.net',
     '0spamurl.fusionzero.com',
 ];
