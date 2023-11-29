@@ -11,7 +11,6 @@ $rbls = [
     'blackholes.five-ten-sg.com',
     'blacklist.woody.ch',
     'bogons.cymru.com',
-    'cbl.abuseat.org',
     'cdl.anti-spam.org.cn',
     'combined.abuse.ch',
     'combined.rbl.msrbl.net',
